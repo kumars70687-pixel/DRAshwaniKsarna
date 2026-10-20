@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-heading: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+  --color-med-primary: #123B5D;
+  --color-med-primary-dark: #0B263D;
+  --color-med-teal: #159A9C;
+  --color-med-teal-dark: #0F787A;
+  --color-med-teal-light: #E8F6F3;
+  --color-med-bg: #F8FAFC;
+  --color-med-navy: #172B3A;
+  --color-med-muted: #576F82;
+  --color-med-border: #E2E8F0;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-med-bg);
+  color: var(--color-med-navy);
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+}
+
+/* Subtle medical cross grid pattern */
+.bg-medical-pattern {
+  background-image: radial-gradient(rgba(21, 154, 156, 0.08) 1.5px, transparent 1.5px);
+  background-size: 24px 24px;
+}
+
+/* Smooth glass effect */
+.glass-nav {
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}

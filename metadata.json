@@ -1,0 +1,6 @@
+{
+  "name": "Dr. Ashwani K Sarna Clinic & Diagnostic Centre",
+  "description": "Official medical website for Dr. Ashwani K Sarna (MD Pediatrics), Senior Consultant Pediatrician & Family Physician with 46+ years experience in Lajpat Nagar-1, New Delhi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
